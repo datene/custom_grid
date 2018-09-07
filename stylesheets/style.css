@@ -1,0 +1,40 @@
+@import "xs.css";
+@import "sm.css";
+@import "md.css";
+@import "lg.css";
+@import "xl.css";
+
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  padding: 0 20px;
+  border: 1px dotted black;
+  height: 100%;
+}
+
+.grid-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.grid-box {
+  padding: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-auto-flow: dense;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
+
